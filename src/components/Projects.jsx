@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import image from "/public/image.png";
-import image1 from "/public/image1.png"
+import image1 from "/public/image1.png";
+import image3 from "/public/image3.png";
 
 const projectsData = [
   {
@@ -16,7 +17,12 @@ const projectsData = [
     description: "A Powerful Web Proxy that can search for anything.",
     tech: ["React", "Tailwind", "Typescript"]
   },
-
+  {
+    image: image3,
+    title: "Background Generator",
+    description: "A background gradient generator for Tailwind CSS",
+    tech: ["React", "Tailwind", "Typescript"]
+  }
 ]
 
 const ScrollReveal = ({children}) => {
